@@ -1,0 +1,2 @@
+import { NextResponse } from 'next/server';import { facultyTemplate,courseTemplate } from '@/lib/store';
+export async function GET(req:Request){const url=new URL(req.url);const type=url.searchParams.get('type');const body=type==='faculty'?facultyTemplate:courseTemplate;return new NextResponse(body,{headers:{'content-type':'text/csv','content-disposition':`attachment; filename="${type==='faculty'?'faculty_master_template.csv':'course_master_template.csv'}"`}})}

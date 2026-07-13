@@ -1,0 +1,2 @@
+import { NextResponse } from 'next/server';import { requireUser } from '@/lib/auth';import { updateFacultyFromForm } from '@/lib/store';
+export async function POST(req:Request){const u=await requireUser('Admin');if(!u)return NextResponse.redirect(new URL('/login',req.url));const f=await req.formData();const v:any={};f.forEach((val,key)=>v[key]=String(val));await updateFacultyFromForm(v);return NextResponse.redirect(new URL('/admin?ok=Faculty saved',req.url))}

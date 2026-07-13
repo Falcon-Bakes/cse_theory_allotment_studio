@@ -1,0 +1,2 @@
+import { NextResponse } from 'next/server';import { requireUser } from '@/lib/auth';import { facultyPreferencesCSV } from '@/lib/store';
+export async function GET(req:Request){const u=await requireUser('HoD');if(!u)return NextResponse.redirect(new URL('/login',req.url));return new NextResponse(await facultyPreferencesCSV(),{headers:{'content-type':'text/csv','content-disposition':'attachment; filename="faculty_preferences.csv"'}})}

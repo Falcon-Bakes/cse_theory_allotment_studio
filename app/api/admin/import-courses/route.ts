@@ -1,0 +1,2 @@
+import { NextResponse } from 'next/server';import { requireUser } from '@/lib/auth';import { importCourseCSV } from '@/lib/store';
+export async function POST(req:Request){const u=await requireUser('Admin');if(!u)return NextResponse.redirect(new URL('/login',req.url));const f=await req.formData();const file=f.get('file') as File;const replace=String(f.get('replace')||'')==='on';if(file){await importCourseCSV(await file.text(),replace)}return NextResponse.redirect(new URL('/admin?ok=Course master imported',req.url))}

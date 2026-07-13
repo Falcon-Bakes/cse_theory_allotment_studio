@@ -1,0 +1,28 @@
+faculty_id,department,faculty_name,user_id,designation,role,seniority_level,expertise_area,home_institution,max_theory_load,years_experience,must_reset_password,is_active,updated_at
+F001,CSE,HoD Account,hod,HoD / Admin,"HoD,Admin",Admin,Administration,GMU,12,0,false,true,2026-07-09 08:18:14.745709+00
+F002,CSE,Dr. Shivanagowda G M,shivanagowda,Professor & Head,Faculty,Senior,"AI, Algorithms, Systems",GMU,12,24,false,true,2026-07-09 10:58:59.915922+00
+F003,CSE,Dr. Chethan H K,chethan.hk,Associate Professor,Faculty,Senior,,GMU,12,15,false,true,2026-07-09 18:34:02.7339+00
+F004,CSE,Dr. Santoshkumar,santoshkumar,Assistant Professor,Faculty,Senior,,GMU,12,24,false,true,2026-07-09 11:27:14.873469+00
+F005,CSE,Mrs. Nayana K,nayana.k,Assistant Professor,Faculty,Senior,,GMU,12,18,false,true,2026-07-10 03:49:32.892037+00
+F006,CSE,Mrs. Kavyashree P N,kavyashree.pn,Assistant Professor,Faculty,Mid,,GMU,12,6,false,true,2026-07-10 03:50:21.634424+00
+F007,CSE,Ms. Ranjitha D S,ranjitha.ds,Assistant Professor,Faculty,Junior,,GMU,12,3,false,true,2026-07-10 06:05:35.483453+00
+F008,CSE,Ms. Nanditha G,nanditha.g,Assistant Professor,Faculty,Junior,,GMU,12,3,false,true,2026-07-09 11:46:21.363886+00
+F009,CSE,Mr. Ravinandan,ravinandan,Assistant Professor,Faculty,Junior,,GMU,12,2,false,true,2026-07-09 14:10:39.625886+00
+F010,CSE,Mr. Srijan Roy,srijan.roy,Assistant Professor,Faculty,Junior,,GMU,12,3,false,true,2026-07-09 15:43:07.835692+00
+F011,CSE,Ms. Niveditha T,niveditha.t,Assistant Professor,Faculty,Junior,,GMU,12,1,false,true,2026-07-10 10:09:48.558767+00
+F012,CSE,Ms. Sanjana A T,sanjana.at,Assistant Professor,Faculty,Junior,,GMU,12,2,false,true,2026-07-10 03:47:22.513928+00
+F013,CSE,Ms. Nayana G S,nayana.gs,Assistant Professor,Faculty,Junior,,GMU,12,2,false,true,2026-07-10 03:38:28.618486+00
+F014,CSE,Ms. Latha K B,latha.kb,Assistant Professor,Faculty,Junior,,GMU,12,2,false,true,2026-07-10 03:43:13.441137+00
+F015,CSE,Ms. Deepthi H G,deepthi.hg,Assistant Professor,Faculty,Junior,,GMU,12,1,false,false,2026-07-10 03:49:51.331271+00
+F016,CSE,Ms. Tanushree V M,tanushree.vm,Assistant Professor,Faculty,Junior,,GMU,12,2,false,true,2026-07-09 12:43:44.613953+00
+F017,CSE,Ms. Deepika M D,deepika.md,Assistant Professor,Faculty,Junior,,GMU,12,2,true,true,2026-07-09 08:12:15.398922+00
+F018,CSE,Mrs. Supriya M,supriya.m,Assistant Professor,Faculty,Junior,,GMU,12,2,false,true,2026-07-10 03:44:09.355101+00
+F019,CSE,Mrs. Pallavi S,pallavi.s,Assistant Professor,Faculty,Junior,,GMU,12,2,false,true,2026-07-11 14:03:25.93438+00
+F020,CSE,Mr. Saurya Ranjan,saurya.ranjan,Assistant Professor,Faculty,Junior,,GMU,12,4,false,true,2026-07-09 12:45:14.530786+00
+F021,CSE,Ms. Shalini M R,shalini.mr,Tutor,Faculty,Junior,,GMU,8,2,false,true,2026-07-10 03:49:01.450039+00
+F022,CSE,Mrs. Sumana C,sumana.c,Tutor,Faculty,Junior,,GMU,8,2,false,true,2026-07-10 03:42:20.005786+00
+F023,CSE,Ms. Saima Anjum,saima.anjum,Tutor,Faculty,Junior,,GMU,8,2,false,true,2026-07-09 15:13:24.015352+00
+F024,CSE,Ms. Ranjitha J,ranjitha.j,Tutor,Faculty,Junior,,GMU,8,2,false,true,2026-07-10 04:10:37.277527+00
+F025,CSE,Mrs. Sindhu R R,sindhu.rr,Tutor,Faculty,Junior,,GMU,8,2,false,true,2026-07-10 03:42:41.562033+00
+F026,CSE,Ms. Pooja S Bidari,pooja.bidari,Tutor,Faculty,Junior,,GMU,8,1,false,true,2026-07-10 03:49:25.676933+00
+F027,CSE,Mr. Adithya M S,adithya.ms,Tutor,Faculty,New,,GMU,8,0.6,false,true,2026-07-09 12:27:42.194249+00
